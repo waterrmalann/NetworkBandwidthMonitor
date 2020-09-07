@@ -7,6 +7,7 @@ A simple Python application with an equally simple windows native UI designed wi
 - [Python](https://www.python.org/) 3.7 or above.
 - [Psutil](https://pypi.org/project/psutil/) (for network statistics)
 - Tkinter (for the GUI)
+- [Quicksand](https://www.dafont.com/quicksand.font) (pretty nice font)
 
 ### Notes
 

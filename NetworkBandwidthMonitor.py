@@ -1,5 +1,5 @@
 # NetworkBandwidthMonitor.py
-# Written by: https://github.com/alanthekiwi
+# Written by: https://github.com/posetack
 # Written on: 15th May, 2020
 # Written in: Python 3.7 w/ Tkinter
 
