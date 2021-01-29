@@ -11,11 +11,9 @@ I wrote it as a console application to monitor my internet back when I had a dat
 - Tkinter (for the GUI)
 - [Quicksand](https://www.dafont.com/quicksand.font) (pretty nice font)
 
-### Freezing (Windows)
+### Freezing
 
-You can freeze the source to exe. I personally use [PyInstaller](https://www.pyinstaller.org/).
-Run the following console command for the best results:
-`pyinstaller NetworkBandwidthMonitor.py --onefile --noconsole`
+You can freeze the source file to an executable for convenience's sake. I personally use [PyInstaller](https://www.pyinstaller.org/) as it works for both Windows and Linux. Use `--onefile` and `--noconsole` for best results.
 
 ### Todos
 
