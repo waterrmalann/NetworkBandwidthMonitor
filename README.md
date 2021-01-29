@@ -1,6 +1,8 @@
 # Network Bandwidth Monitor
 
-A simple Python application with an equally simple windows native UI designed with the Tkinter module. The program is made for monitoring network bandwith monitor, it calculates the average speed, data usage for both downloads and uploads and total usage statistics. I originally made the program as a console application to monitor my internet back when I had a data cap. I recently gave it simple UI using Tkinter after learning it a bit, I do think my code is really bad as I still have a lot to learn, so be advised if you're gonna go through it.
+A simple application written in Python using Tkinter for monitoring real-time internet usage and speeds for both download and upload. It should run on both Windows (tested on Windows 10 and 7) and Linux (tested on Ubuntu 20.04.1) systems as long as Python and Tkinter are installed (not sure about Mac).
+
+I wrote it as a console application to monitor my internet back when I had a data cap. I recently gave it a simple UI using Tkinter after learning a bit. I do think that my code is bad since I still have a lot to learn, so just keep that in mind if you're gonna go through it.
 
 ## Requirements
 
@@ -9,13 +11,9 @@ A simple Python application with an equally simple windows native UI designed wi
 - Tkinter (for the GUI)
 - [Quicksand](https://www.dafont.com/quicksand.font) (pretty nice font)
 
-### Notes
+### Freezing (Windows)
 
-This program is written specifically to run on Windows platforms. I have not tested this on other platforms and it most likely won't even work (It seems to run fine on Windows 7, 8, and 10 systems).
-
-### Freezing
-
-You can freeze the source to exe. I personally use and recommend [PyInstaller](https://www.pyinstaller.org/).
+You can freeze the source to exe. I personally use [PyInstaller](https://www.pyinstaller.org/).
 Run the following console command for the best results:
 `pyinstaller NetworkBandwidthMonitor.py --onefile --noconsole`
 
