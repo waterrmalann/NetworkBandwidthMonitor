@@ -61,7 +61,7 @@ label_download_header.pack()
 label_download = tk.Label(text = "Calculating...", font = "Quicksand 12")
 label_download.pack()
 
-attribution = tk.Label(text = "\n~ @alanthekiwi ~", font = "Quicksand 11 italic")
+attribution = tk.Label(text = "\n~ posetack ~", font = "Quicksand 11 italic")
 attribution.pack()
 
 # Updating Labels
