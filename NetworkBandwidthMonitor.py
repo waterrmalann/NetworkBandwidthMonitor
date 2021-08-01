@@ -1,5 +1,5 @@
 # NetworkBandwidthMonitor.py
-# Written by: https://github.com/posetack
+# Written by: https://github.com/waterrmalann
 # Written on: 15th May, 2020
 # Written in: Python 3.7 w/ Tkinter
 
@@ -24,7 +24,7 @@ def size(B):
 ## Constants
 WINDOW_SIZE = (400, 400)  # Width x Height
 WINDOW_RESIZEABLE = False  # If the window is resizeable or not.
-REFRESH_DELAY = 1000 # Window update delay in ms.
+REFRESH_DELAY = 1500 # Window update delay in ms.
 
 ## Variables
 last_upload, last_download, upload_speed, down_speed = 0, 0, 0, 0
@@ -61,7 +61,7 @@ label_download_header.pack()
 label_download = tk.Label(text = "Calculating...", font = "Quicksand 12")
 label_download.pack()
 
-attribution = tk.Label(text = "\n~ posetack ~", font = "Quicksand 11 italic")
+attribution = tk.Label(text = "\n~ WaterrMalann ~", font = "Quicksand 11 italic")
 attribution.pack()
 
 # Updating Labels
